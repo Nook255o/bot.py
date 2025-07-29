@@ -213,4 +213,4 @@ async def on_ready():
     await update_shop_message()
 
 keep_alive()
-bot.run(TOKEN)
+bot.run(os.getenv("DISCORD_TOKEN"))
